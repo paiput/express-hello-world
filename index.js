@@ -7,6 +7,8 @@ const PORT = process.env.PORT || 3000;
 // crea el objeto app
 const app = express();
 
+app.use(express.static('public'));
+
 // la app responde con Hello World a todas las peticiones GET a /
 app.get('/', (req, res) => {
     res.send('Hello World\n');
