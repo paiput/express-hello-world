@@ -1,7 +1,6 @@
 {
   "name": "express-hello-world",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -12,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paiput/express-hello-world.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paiput/express-hello-world/issues"
+  },
+  "homepage": "https://github.com/paiput/express-hello-world#readme",
+  "description": ""
 }
